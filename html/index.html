@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Météo</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div class="main">
+      <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Entrer une ville" />
+        <button type="submit">Rechercher</button>
+      </form>
+
+      <div class="card" style="display: none"></div>
+
+      <button type="button" class="detailsBtn" style="display: none">
+        Plus de détails
+      </button>
+      <div class="details" style="display: none"></div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
