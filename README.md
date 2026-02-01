@@ -1,4 +1,4 @@
-# 🌦️ Application Météo
+# 🌦️ Site web Météo
 
 Cette application web permet de consulter la météo d’une ville recherchée.
 
